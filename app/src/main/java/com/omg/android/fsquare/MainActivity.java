@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         String today = formatter.format(date);
         params.put("v", today);
         params.put("m", "foursquare");
-        Call<SearchResponse> call = fourSquareAPI.searchVenue("40.7,-74", params);
+        Call<SearchResponse> call = fourSquareAPI.searchVenue("40.7,-74", params);//Lat,long.
         call.enqueue(new Callback<SearchResponse>() {
             @Override
             public void onResponse(Call<SearchResponse> call, Response<SearchResponse> response) {
