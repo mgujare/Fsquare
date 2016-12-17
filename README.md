@@ -1,6 +1,7 @@
-###This app demonstrates the how to use Foursquare API wrapper library for Android. I published this library on bintray repo. Library is in beta version. For now it returns Venue details given the location information. All the data models in the library map to Foursquare API data models closely. 
+This app demonstrates the how to use Foursquare API wrapper library for Android. I published this library on bintray repo. Library is in beta version. For now it returns Venue details given the location information. All the data models in the library map to Foursquare API data models closely. 
+Developers need to create valid CLIENT_ID and CLIENT_SECRET from [Foursquare API](https://developer.foursquare.com)
 
-###Add below lines to app/build.gradle file to include Foursquare API wrapper library:
+Add below lines to **app/build.gradle** file to include Foursquare API wrapper library:
 
 ```
    repositories {
